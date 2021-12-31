@@ -1,33 +1,32 @@
-# Project
+# Welcome to Carbon Insight
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Carbon Insight is a platform to display the carbon neutralization roadmap for researchers, decision-makers, and other participants in the community. We provide demonstrations of cutting-edge research on carbon emission, carbon sink, and carbon flux.
 
-As the maintainer of this project, please make a few updates:
+With the global consensus of the 1.5°C goal of the Paris Agreement, the world has a goal to achieve carbon neutralization by 2050. This ambitious goal requires collaboration from all fields. To tackle the climate crisis together, we must first understand where carbon comes from and where it goes.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+With Carbon Insight, you can work with the world's most updated carbon-related data and generate insights as you wish.
 
-## Contributing
+For example, in our first release, you can leverage the dataset provided by [Carbon Monitor](https://carbonmonitor.org.cn/), to have a daily anthropogenic CO2 emission estimation by country and sector since January 2019.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+![](assets/ss01.png)
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Carbon Insight also lets you observe and track correlations between global carbon emissions and socioeconomic factors such as COVID-19 and GDP.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+![](assets/ss02.png)
 
-## Trademarks
+![](assets/ss03.png)
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+Carbon Insight aims to achieve the following goals:
+
+- Using data visualization to support scientific research, allowing researchers to identify problems and ideas that are not easily seen in conventional ways
+- Acting as a tool that allows all users to explore carbon neutralization pathways under different scenarios and with technology innovations
+- Illustrating data and science of carbon neutralization for the non-professionals to raise public awareness towards climate change
+
+## Release Note
+
+In the first release, we share:
+
+* tutorials with code examples on how to process and analyse the Carbon Emission data
+* Power BI notebooks with interactive features to filter results you are intersted in
+
+In future, we will share more visualization and analysis results on more diverse datasets.

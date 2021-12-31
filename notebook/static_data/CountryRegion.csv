@@ -1,0 +1,190 @@
+Code,Name,SubRegion,Continent,DataSource,Longitude,Latitude
+ABW,Aruba,Caribbean,Americas,Simulated-ROW,-69.968338,12.52111
+AFG,Afghanistan,Southern Asia,Asia,Simulated-ROW,67.709953,33.93911
+AGO,Angola,Middle Africa,Africa,Simulated-ROW,17.873887,-11.202691999999999
+ALB,Albania,Southern Europe,Europe,Simulated-ROW,20.168331,41.153332
+ARE,United Arab Emirates,Western Asia,Asia,Simulated-ROW,53.847818000000004,23.424076
+ARG,Argentina,South America,Americas,Simulated-ROW,-63.616671999999994,-38.416097
+ARM,Armenia,Western Asia,Asia,Simulated-ROW,45.038189,40.069099
+ATG,Antigua and Barbuda,Caribbean,Americas,Simulated-ROW,-61.796428000000006,17.060816
+AUS,Australia,Australia and New Zealand,Oceania,Simulated-ROW,133.775136,-25.274398
+AUT,Austria,Western Europe,Europe,Simulated-EU27&UK,14.550072,47.516231
+AZE,Azerbaijan,Western Asia,Asia,Simulated-ROW,47.576927000000005,40.143105
+BDI,Burundi,Africa,Africa,Simulated-ROW,29.918885999999997,-3.3730559999999996
+BEL,Belgium,Western Europe,Europe,Simulated-EU27&UK,4.469936,50.503887
+BEN,Benin,Africa,Africa,Simulated-ROW,2.315834,9.30769
+BFA,Burkina Faso,Africa,Africa,Simulated-ROW,-1.561593,12.238333
+BGR,Bulgaria,Eastern Europe,Europe,Simulated-EU27&UK,25.48583,42.733883
+BHR,Bahrain,Western Asia,Asia,Simulated-ROW,50.637772,25.930414000000003
+BHS,Bahamas,Caribbean,Americas,Simulated-ROW,-77.39628,25.03428
+BIH,Bosnia and Herzegovina,Southern Europe,Europe,Simulated-ROW,17.679076000000002,43.915886
+BLR,Belarus,Eastern Europe,Europe,Simulated-ROW,27.953389,53.709807
+BLZ,Belize,Central America,Americas,Simulated-ROW,-88.49765,17.189877
+BMU,Bermuda,Northern America,Americas,Simulated-ROW,-64.75737,32.321384
+BOL,Bolivia,South America,Americas,Simulated-ROW,-63.588653,-16.290154
+BRA,Brazil,South America,Americas,Real,-51.92528,-14.235004
+BRB,Barbados,Caribbean,Americas,Simulated-ROW,-59.543198,13.193887
+BRN,Brunei,South-Eastern Asia,Asia,Simulated-ROW,114.72766899999999,4.535277
+BTN,Bhutan,Southern Asia,Asia,Simulated-ROW,90.433601,27.514162
+BWA,Botswana,Africa,Africa,Simulated-ROW,24.684866,-22.328474
+CAF,Central African Republic,Middle Africa,Africa,Simulated-ROW,20.939444,6.611111
+CAN,Canada,Northern America,Americas,Simulated-ROW,-106.34677099999999,56.130366
+CHE,Switzerland,Western Europe,Europe,Simulated-ROW,8.227511999999999,46.818188
+CHL,Chile,South America,Americas,Simulated-ROW,-71.542969,-35.675146999999996
+CHN,China,Eastern Asia,Asia,Real,104.195397,35.86166
+CIV,Côte d’Ivoire,Africa,Africa,Simulated-ROW,-5.54708,7.539989
+CMR,Cameroon,Middle Africa,Africa,Simulated-ROW,12.354722,7.369722
+COD,Congo (DRC),Middle Africa,Africa,Simulated-ROW,21.758664000000003,-4.038333000000001
+COG,Congo,Middle Africa,Africa,Simulated-ROW,15.827658999999999,-0.228021
+COL,Colombia,South America,Americas,Simulated-ROW,-74.297333,4.570868
+COM,Comoros,Africa,Africa,Simulated-ROW,43.872219,-11.875001
+CPV,Cabo Verde,Africa,Africa,Simulated-ROW,-24.013197,16.002082
+CRI,Costa Rica,Central America,Americas,Simulated-ROW,-83.753428,9.748917
+CUB,Cuba,Caribbean,Americas,Simulated-ROW,-77.78116700000001,21.521757
+CZE,Czechia,Eastern Europe,Europe,Simulated-EU27&UK,15.472961999999999,49.817492
+CYP,Cyprus,Western Asia,Asia,Simulated-EU27&UK,33.429859,35.126413
+DEU,Germany,Western Europe,Europe,Simulated-EU27&UK,10.451526,51.165690999999995
+DJI,Djibouti,Africa,Africa,Simulated-ROW,42.590275,11.825138
+DMA,Dominica,Caribbean,Americas,Simulated-ROW,-61.370976,15.414999
+DNK,Denmark,Northern Europe,Europe,Simulated-EU27&UK,9.501785,56.26392
+DOM,Dominican Republic,Caribbean,Americas,Simulated-ROW,-70.162651,18.735692999999998
+DZA,Algeria,Africa,Africa,Simulated-ROW,1.6596259999999998,28.033886
+ECU,Ecuador,South America,Americas,Simulated-ROW,-78.183406,-1.8312389999999998
+EGY,Egypt,Africa,Africa,Simulated-ROW,30.802497999999996,26.820553000000004
+ERI,Eritrea,Africa,Africa,Simulated-ROW,39.782334000000006,15.179383999999999
+ESP,Spain,Southern Europe,Europe,Simulated-EU27&UK,-3.7492199999999998,40.463667
+EST,Estonia,Northern Europe,Europe,Simulated-EU27&UK,25.013607,58.595271999999994
+ETH,Ethiopia,Africa,Africa,Simulated-ROW,40.489672999999996,9.145
+FIN,Finland,Northern Europe,Europe,Simulated-EU27&UK,25.748151,61.92411
+FJI,Fiji,Melanesia,Oceania,Simulated-ROW,179.414413,-16.578193
+FRA,France,Western Europe,Europe,Simulated-EU27&UK,2.213749,46.227638
+GAB,Gabon,Middle Africa,Africa,Simulated-ROW,11.609444,-0.803689
+GBR,United Kingdom,Northern Europe,Europe,Simulated-EU27&UK,-3.435973,55.378051
+GEO,Georgia,Western Asia,Asia,Simulated-ROW,43.356891999999995,42.315407
+GHA,Ghana,Africa,Africa,Simulated-ROW,-1.0231940000000002,7.946527000000001
+GIB,Gibraltar,Southern Europe,Europe,Simulated-ROW,-5.345374,36.137741
+GIN,Guinea,Africa,Africa,Simulated-ROW,-9.696645,9.945587
+GMB,Gambia,Africa,Africa,Simulated-ROW,-15.310139000000001,13.443182
+GNB,Guinea-Bissau,Africa,Africa,Simulated-ROW,-15.180413,11.803749
+GNQ,Equatorial Guinea,Middle Africa,Africa,Simulated-ROW,10.267895,1.6508009999999997
+GRC,Greece,Southern Europe,Europe,Simulated-EU27&UK,21.824312,39.074208
+GRD,Grenada,Caribbean,Americas,Simulated-ROW,-61.604170999999994,12.262775999999999
+GRL,Greenland,Northern America,Americas,Simulated-ROW,-42.604303,71.706936
+GTM,Guatemala,Central America,Americas,Simulated-ROW,-90.23075899999999,15.783470999999999
+GUY,Guyana,South America,Americas,Simulated-ROW,-58.93018000000001,4.860416000000001
+HND,Honduras,Central America,Americas,Simulated-ROW,-86.241905,15.199998999999998
+HRV,Croatia,Southern Europe,Europe,Simulated-EU27&UK,15.2,45.1
+HTI,Haiti,Caribbean,Americas,Simulated-ROW,-72.28521500000001,18.971187
+HUN,Hungary,Eastern Europe,Europe,Simulated-EU27&UK,19.503304,47.162494
+IDN,Indonesia,South-Eastern Asia,Asia,Simulated-ROW,113.921327,-0.789275
+IND,India,Southern Asia,Asia,Real,78.96288,20.593684
+IRL,Ireland,Northern Europe,Europe,Simulated-EU27&UK,-8.243889999999999,53.41291
+IRN,Iran,Southern Asia,Asia,Simulated-ROW,53.68804599999999,32.427908
+IRQ,Iraq,Western Asia,Asia,Simulated-ROW,43.679291,33.223191
+ISL,Iceland,Northern Europe,Europe,Simulated-ROW,-19.020835,64.96305100000001
+ISR,Israel,Western Asia,Asia,Simulated-ROW,34.851612,31.046051000000002
+ITA,Italy,Southern Europe,Europe,Simulated-EU27&UK,12.56738,41.87194
+JAM,Jamaica,Caribbean,Americas,Simulated-ROW,-77.297508,18.109581
+JOR,Jordan,Western Asia,Asia,Simulated-ROW,36.238414,30.585164000000002
+JPN,Japan,Eastern Asia,Asia,Real,138.252924,36.204824
+KAZ,Kazakhstan,Central Asia,Asia,Simulated-ROW,66.923684,48.019573
+KEN,Kenya,Africa,Africa,Simulated-ROW,37.906193,-0.023559
+KGZ,Kyrgyzstan,Central Asia,Asia,Simulated-ROW,74.766098,41.20438
+KHM,Cambodia,South-Eastern Asia,Asia,Simulated-ROW,104.990963,12.565679
+KIR,Kiribati,Micronesia,Oceania,Simulated-ROW,-168.734039,-3.3704169999999998
+KNA,Saint Kitts and Nevis,Caribbean,Americas,Simulated-ROW,-62.782998,17.357822
+KOR,Korea,Eastern Asia,Asia,Simulated-ROW,127.766922,35.907757000000004
+KWT,Kuwait,Western Asia,Asia,Simulated-ROW,47.481766,29.311659999999996
+LAO,Laos,South-Eastern Asia,Asia,Simulated-ROW,102.495496,19.856270000000002
+LBN,Lebanon,Western Asia,Asia,Simulated-ROW,35.862285,33.854721000000005
+LBR,Liberia,Africa,Africa,Simulated-ROW,-9.429499,6.4280550000000005
+LBY,Libya,Africa,Africa,Simulated-ROW,17.228331,26.3351
+LCA,Saint Lucia,Caribbean,Americas,Simulated-ROW,-60.97889300000001,13.909444
+LKA,Sri Lanka,Southern Asia,Asia,Simulated-ROW,80.77179699999999,7.873054
+LSO,Lesotho,Africa,Africa,Simulated-ROW,28.233608,-29.609988
+LTU,Lithuania,Northern Europe,Europe,Simulated-EU27&UK,23.881275,55.169438
+LUX,Luxembourg,Western Europe,Europe,Simulated-EU27&UK,6.129583,49.815273
+LVA,Latvia,Northern Europe,Europe,Simulated-EU27&UK,24.603189,56.879635
+MAR,Morocco,Africa,Africa,Simulated-ROW,-7.09262,31.791702
+MDA,Moldova,Eastern Europe,Europe,Simulated-ROW,28.369884999999996,47.411631
+MDG,Madagascar,Africa,Africa,Simulated-ROW,46.869107,-18.766947000000002
+MDV,Maldives,Southern Asia,Asia,Simulated-ROW,73.22068,3.202778
+MEX,Mexico,Central America,Americas,Simulated-ROW,-102.552784,23.634501
+MKD,North Macedonia,Southern Europe,Europe,Simulated-ROW,21.745275,41.608635
+MLI,Mali,Africa,Africa,Simulated-ROW,-3.9961660000000006,17.570692
+MLT,Malta,Southern Europe,Europe,Simulated-EU27&UK,14.375416,35.937496
+MMR,Myanmar,South-Eastern Asia,Asia,Simulated-ROW,95.956223,21.913965
+MNG,Mongolia,Eastern Asia,Asia,Simulated-ROW,103.84665600000001,46.862496
+MOZ,Mozambique,Africa,Africa,Simulated-ROW,35.529562,-18.665695
+MRT,Mauritania,Africa,Africa,Simulated-ROW,-10.940835,21.00789
+MUS,Mauritius,Africa,Africa,Simulated-ROW,57.552152,-20.348404000000002
+MWI,Malawi,Africa,Africa,Simulated-ROW,34.301525,-13.254307999999998
+MYS,Malaysia,South-Eastern Asia,Asia,Simulated-ROW,101.97576600000001,4.210483999999999
+NAM,Namibia,Africa,Africa,Simulated-ROW,-22.9576,18.4904
+NCL,New Caledonia,Melanesia,Oceania,Simulated-ROW,165.618042,-20.904304999999997
+NER,Niger,Africa,Africa,Simulated-ROW,8.081666,17.607789
+NGA,Nigeria,Africa,Africa,Simulated-ROW,8.675277000000001,9.081999
+NIC,Nicaragua,Central America,Americas,Simulated-ROW,-85.207229,12.865416
+NLD,Netherlands,Western Europe,Europe,Simulated-EU27&UK,5.291266,52.132633
+NOR,Norway,Northern Europe,Europe,Simulated-ROW,8.468946,60.472024
+NPL,Nepal,Southern Asia,Asia,Simulated-ROW,84.12400799999999,28.394857000000002
+NZL,New Zealand,Australia and New Zealand,Oceania,Simulated-ROW,174.88597099999998,-40.900557
+OMN,Oman,Western Asia,Asia,Simulated-ROW,55.923255000000005,21.512583
+PAK,Pakistan,Southern Asia,Asia,Simulated-ROW,69.345116,30.375321000000003
+PAN,Panama,Central America,Americas,Simulated-ROW,-80.782127,8.537981
+PER,Peru,South America,Americas,Simulated-ROW,-75.015152,-9.189967
+PHL,Philippines,South-Eastern Asia,Asia,Simulated-ROW,121.77401699999999,12.879721
+PLW,Palau,Micronesia,Oceania,Simulated-ROW,134.58252,7.51498
+PNG,Papua New Guinea,Melanesia,Oceania,Simulated-ROW,143.95555,-6.314993
+POL,Poland,Eastern Europe,Europe,Simulated-EU27&UK,19.145135999999997,51.919438
+PRK,North Korea,Eastern Asia,Asia,Simulated-ROW,127.510093,40.339852
+PRT,Portugal,Southern Europe,Europe,Simulated-EU27&UK,-8.224454,39.399871999999995
+PRY,Paraguay,South America,Americas,Simulated-ROW,-58.44383199999999,-23.442503
+QAT,Qatar,Western Asia,Asia,Simulated-ROW,51.183884,25.354826
+ROU,Romania,Eastern Europe,Europe,Simulated-EU27&UK,24.96676,45.943160999999996
+RUS,Russia,Eastern Europe,Europe,Real,105.31875600000001,61.52401
+RWA,Rwanda,Africa,Africa,Simulated-ROW,29.873888,-1.940278
+SAU,Saudi Arabia,Western Asia,Asia,Simulated-ROW,45.079162,23.885942
+SRB,Serbia,Eastern Europe,Europe,Simulated-ROW,21.005859,44.016521000000004
+MNE,Montenegro,Eastern Europe,Europe,Simulated-ROW,19.37439,42.708678000000006
+SDN,Sudan,Africa,Africa,Simulated-ROW,30.217636,12.862807
+SEN,Senegal,Africa,Africa,Simulated-ROW,-14.452361999999999,14.497401000000002
+SGP,Singapore,South-Eastern Asia,Asia,Simulated-ROW,103.819836,1.352083
+SLB,Solomon Islands,Melanesia,Oceania,Simulated-ROW,160.156194,-9.645710000000001
+SLE,Sierra Leone,Africa,Africa,Simulated-ROW,-11.779889,8.460555000000001
+SLV,El Salvador,Central America,Americas,Simulated-ROW,-88.89653,13.794185
+SOM,Somalia,Africa,Africa,Simulated-ROW,46.199616,5.152149
+STP,São Tomé and Príncipe,Middle Africa,Africa,Simulated-ROW,6.613081,0.18636
+SUR,Suriname,South America,Americas,Simulated-ROW,-56.02778299999999,3.9193050000000005
+SVK,Slovakia,Eastern Europe,Europe,Simulated-EU27&UK,19.699023999999998,48.669026
+SVN,Slovenia,Southern Europe,Europe,Simulated-EU27&UK,14.995463,46.151241
+SWE,Sweden,Northern Europe,Europe,Simulated-EU27&UK,18.643501,60.128161
+SYC,Seychelles,Africa,Africa,Simulated-ROW,55.491977,-4.679574
+SYR,Syria,Western Asia,Asia,Simulated-ROW,38.996815000000005,34.802075
+TCA,Turks and Caicos Islands,Caribbean,Americas,Simulated-ROW,-71.797928,21.694025
+TCD,Chad,Middle Africa,Africa,Simulated-ROW,18.732207,15.454166
+TGO,Togo,Africa,Africa,Simulated-ROW,0.824782,8.619543
+THA,Thailand,South-Eastern Asia,Asia,Simulated-ROW,100.992541,15.870032
+TJK,Tajikistan,Central Asia,Asia,Simulated-ROW,71.276093,38.861034000000004
+TKM,Turkmenistan,Central Asia,Asia,Simulated-ROW,59.556278000000006,38.969719
+TLS,Timor-Leste,South-Eastern Asia,Asia,Simulated-ROW,125.727539,-8.874217
+TON,Tonga,Polynesia,Oceania,Simulated-ROW,-175.198242,-21.178986
+TTO,Trinidad and Tobago,Caribbean,Americas,Simulated-ROW,-61.222503,10.691803
+TUN,Tunisia,Africa,Africa,Simulated-ROW,9.537499,33.886917
+TUR,Turkey,Western Asia,Asia,Simulated-ROW,35.243322,38.963745
+TWN,Taiwan,Eastern Asia,Asia,Simulated-ROW,120.96051499999999,23.69781
+TZA,Tanzania,Africa,Africa,Simulated-ROW,34.888822,-6.369028
+UGA,Uganda,Africa,Africa,Simulated-ROW,32.290275,1.373333
+UKR,Ukraine,Eastern Europe,Europe,Simulated-ROW,31.16558,48.379433
+URY,Uruguay,South America,Americas,Simulated-ROW,-55.765834999999996,-32.522779
+USA,United States,Northern America,Americas,Real,-95.712891,37.09024
+UZB,Uzbekistan,Central Asia,Asia,Simulated-ROW,64.585262,41.377491
+VCT,Saint Vincent and the Grenadines,Caribbean,Americas,Simulated-ROW,-61.287228000000006,12.984305
+VEN,Venezuela,South America,Americas,Simulated-ROW,-66.58973,6.42375
+VNM,Vietnam,South-Eastern Asia,Asia,Simulated-ROW,108.277199,14.058323999999999
+VUT,Vanuatu,Melanesia,Oceania,Simulated-ROW,166.959158,-15.376706
+WSM,Samoa,Polynesia,Oceania,Simulated-ROW,-172.10462900000002,-13.759029
+YEM,Yemen,Western Asia,Asia,Simulated-ROW,48.516388,15.552726999999999
+ZAF,South Africa,Africa,Africa,Simulated-ROW,22.937506,-30.559482
+ZMB,Zambia,Africa,Africa,Simulated-ROW,27.849332,-13.133897
+ZWE,Zimbabwe,Africa,Africa,Simulated-ROW,29.154857,-19.015438
