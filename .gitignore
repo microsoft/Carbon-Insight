@@ -2,5 +2,6 @@
 .ipynb_checkpoints
 
 # Dynamic data
+auxiliary_data
 download_data
 export_data
