@@ -22,11 +22,14 @@ Carbon Insight aims to achieve the following goals:
 - Acting as a tool that allows all users to explore carbon neutralization pathways under different scenarios and with technology innovations
 - Illustrating data and science of carbon neutralization for the non-professionals to raise public awareness towards climate change
 
+## How to use
+
 ## Release Note
 
-In the first release, we share:
+**2022/01/06 release**:
 
 * [Tutorials](https://github.com/microsoft/Carbon-Insight/tree/main/notebook) with code examples on how to process and analyse the Carbon Emission data
 * [Power BI reports](https://github.com/microsoft/Carbon-Insight/tree/main/powerbi) with interactive features to filter results you are intersted in
 
-In future, we will share more visualization and analysis results on more diverse datasets.
+## Contributors
+
