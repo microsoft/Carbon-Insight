@@ -24,7 +24,7 @@ We aim to achieve the following goals:
 
 ## How to use
 
-Using [Carbon Monitor](https://carbonmonitor.org.cn/), a dataset providing daily estimations of CO2 emissions by country/sector, we demonstrate two ways to do analysis with carbon-related data:
+Using [Carbon Monitor](https://carbonmonitor.org.cn/), a dataset providing daily estimations of CO2 emissions by country/sector, as an example, we demonstrate two ways to do analysis with carbon-related data:
 * interactable Power BI reports, and 
 * code examples 
 
