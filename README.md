@@ -26,7 +26,7 @@ Carbon Insight aims to achieve the following goals:
 
 In the first release, we share:
 
-* tutorials with code examples on how to process and analyse the Carbon Emission data
-* Power BI notebooks with interactive features to filter results you are intersted in
+* [Tutorials](https://github.com/microsoft/Carbon-Insight/tree/main/notebook) with code examples on how to process and analyse the Carbon Emission data
+* [Power BI reports](https://github.com/microsoft/Carbon-Insight/tree/main/powerbi) with interactive features to filter results you are intersted in
 
 In future, we will share more visualization and analysis results on more diverse datasets.
