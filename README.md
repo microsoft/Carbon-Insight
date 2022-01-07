@@ -30,13 +30,14 @@ Using [Carbon Monitor](https://carbonmonitor.org.cn/), a dataset providing daily
 
 If you want a straightforward view of a global emission map by country, you can download our [Power BI reports](https://github.com/microsoft/Carbon-Insight/tree/main/powerbi) and filter results based on your interest.
 
-![image](https://user-images.githubusercontent.com/19543144/148361206-a04b1a96-668a-45d2-a149-da284add6f61.png)
+![](assets/Emission-updated.gif)
 
 (New to Power BI? Check the instructions on [how to download](https://powerbi.microsoft.com/en-us/downloads/) the Power BI app and [how to explore](https://docs.microsoft.com/en-us/learn/modules/explore-power-bi-service/3-navigate-content) with dashboards, reports, and apps in Power BI.)
 
 If you have some basic coding knowledge and want to get your hands dirty customizing your own analysis or combining different datasets to scale your research, go to our [Jupyter Notebook Tutorials](https://github.com/microsoft/Carbon-Insight/tree/main/notebook) and walk through the code examples we provide on how to acquire, process and visualize carbon-related data.
 
-![image](https://user-images.githubusercontent.com/19543144/148363852-5d9afff3-8490-47e6-a420-5ab136e6e904.png)
+
+![](assets/MicrosoftTeams-image.png)
 
 ## Release Note
 
