@@ -14,6 +14,11 @@ steps:
   clean: true
   persistCredentials: true
 
+- task: BinSkim@4
+  inputs:
+    InputType: 'CommandLine'
+    arguments: 'analyze $(Build.StagingDirectory)\* --recurse --verbose'
+
 - task: CredScan@3
   inputs: 
     outputFormat: 'csv'
@@ -30,5 +35,6 @@ steps:
 
 - task: PostAnalysis@1
   inputs:
+    BinSkim: true
     CredScan: true
     Semmle: true
