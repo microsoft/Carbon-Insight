@@ -7,6 +7,9 @@ steps:
   clean: true
   persistCredentials: true
 
+- task: CredScan@3
+  inputs:
+
 - task: Semmle@1
   inputs:
     sourceCodeDirectory: '$(Build.SourcesDirectory)'
@@ -31,9 +34,3 @@ steps:
     BinSkim: true
     CredScan: true
     Semmle: true
-
-- download: current
-  patterns: '**/*.json'
-
-- download: current
-  patterns: '**/*.xml'
