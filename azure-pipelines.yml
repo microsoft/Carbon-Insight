@@ -8,7 +8,8 @@ steps:
   persistCredentials: true
 
 - task: CredScan@3
-  inputs:
+  inputs: 
+    outputFormat: 'csv'
 
 - task: Semmle@1
   inputs:
