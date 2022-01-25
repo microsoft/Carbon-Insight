@@ -9,8 +9,8 @@ steps:
 
 - task: Semmle@1
   inputs:
-    sourceCodeDirectory: '$(Build.SourcesDirectory)/views'
-    language: 'javascript'
+    sourceCodeDirectory: '$(Build.SourcesDirectory)'
+    language: 'python'
     querySuite: 'Recommended'
     timeout: '1800'
     ram: '16384'
