@@ -1,6 +1,13 @@
 pool:
   vmImage: windows-latest
 
+schedules:
+- cron: "0 0 * * 0"
+  displayName: Weekly check
+  branches:
+    include:
+    - main
+
 steps:
 
 - checkout: self
