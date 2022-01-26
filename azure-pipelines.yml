@@ -1,0 +1,40 @@
+pool:
+  vmImage: windows-latest
+
+schedules:
+- cron: "0 0 * * 0"
+  displayName: Weekly check
+  branches:
+    include:
+    - main
+
+steps:
+
+- checkout: self
+  clean: true
+  persistCredentials: true
+
+- task: BinSkim@4
+  inputs:
+    InputType: 'CommandLine'
+    arguments: 'analyze $(Build.StagingDirectory)\* --recurse --verbose'
+
+- task: CredScan@3
+  inputs: 
+    outputFormat: 'csv'
+
+- task: ComponentGovernanceComponentDetection@0
+  inputs:
+    scanType: 'Register'
+    verbosity: 'Verbose'
+    alertWarningLevel: 'High'
+
+- task: VulnerabilityAssessment@0
+
+- task: PublishSecurityAnalysisLogs@2
+
+- task: PostAnalysis@1
+  inputs:
+    BinSkim: true
+    CredScan: true
+    Semmle: true
