@@ -1,138 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
-  <meta name="viewport" content="user-scalable=0,width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" href="favicon.ico"> -->
-  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-  <title>
-    carbon-insight
-  </title>
-<link href="static/js/app.js" rel="preload" as="script"><link href="static/js/chunk-vendors.js" rel="preload" as="script"></head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta
+      name="viewport"
+      content="user-scalable=0,width=device-width, initial-scale=1.0"
+    />
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <title>carbon-insight</title>
+  <link href="static/js/app.js" rel="preload" as="script"><link href="static/js/chunk-vendors.js" rel="preload" as="script"></head>
 
-<body>
-  <noscript>
-    <strong>We're sorry but carbon-insight doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
-  </noscript>
-  <div id="cookie-banner"></div>
-  <div id="app"></div>
-  <!-- built files will be auto injected -->
-  <script src="https://wcpconsentprod.blob.core.windows.net/mscc/lib-euro/v2/wcp-consent.js"></script>
-  <!-- <script src="/js/site.js?v=OrLlsNHMv_mUS4JM97wWEjuDPU8QjoJlToel0Oz20fM"></script> -->
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but carbon-insight doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="cookie-banner"></div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://wcpconsentprod.blob.core.windows.net/mscc/lib-euro/v2/wcp-consent.js"></script>
+    <!-- <script src="/js/site.js?v=OrLlsNHMv_mUS4JM97wWEjuDPU8QjoJlToel0Oz20fM"></script> -->
 
-  <script type="text/javascript">
-    window.onload = function () {
-      function getSetDate() {
-        var d = new Date();
-        d.setMonth(12);
-        return d;
-      }
-      function getResetDate() {
-        var d = new Date();
-        d.setMonth(-12);
-        return d;
-      }
-      // function watchConsentChange(perfernces) {
-      //     console.log(perfernces);
-      //     alert("consent changed");
-      // }
-
-      // function manageConsent() {
-      //     siteConsent.manageConsent();
-      // }
-      function SocialMediaCookie(setString) {
-        if (setString === "set") {
-          document.cookie = "socialMediaCookie=Started_Tracking_Your_SocialMedia; expires=" + getSetDate() + "; path=/";
-        } else {
-          document.cookie = "socialMediaCookie=Started_Tracking_Your_SocialMedia; expires=" + getResetDate() + "; path=/";
+    <script type="text/javascript">
+      window.onload = function () {
+        function getSetDate() {
+          var d = new Date();
+          d.setMonth(12);
+          return d;
         }
-      }
-      function AnalyticsCookie(setString) {
-        if (setString === "set") {
-          document.cookie = "analyticsCookie=Started_Tracking_Your_Experiance; expires=" + getSetDate() + "; path=/";
-        } else {
-          document.cookie = "analyticsCookie=Started_Tracking_Your_Experiance; expires=" + getResetDate() + "; path=/";
+        function getResetDate() {
+          var d = new Date();
+          d.setMonth(-12);
+          return d;
         }
-      }
-      function AdvertisingCookie(setString) {
-        if (setString === "set") {
-          document.cookie = "adCookie=Started_Tracking_You_ToShow_Ads; expires=" + getSetDate() + "; path=/";
-        } else {
-          document.cookie = "adCookie=Started_Tracking_You_ToShow_Ads; expires=" + getResetDate() + "; path=/";
-        }
-      }
-      function setEssentialCookies() {
-        document.cookie = "essentialCookie=I_am_alway_required; expires=" + getSetDate() + "; path=/";
-      }
-      function InitCallback1(categoryPreferences) {
-        console.log(categoryPreferences.Advertising);
-        console.log(categoryPreferences.SocialMedia);
-        console.log(categoryPreferences.Analytics);
-        console.log("init callback 1");
-      }
-      function InitCallback2() {
-        console.log("init callback 2");
-      }
-      function InitCallback3() {
-        console.log("init callback 3");
-      }
+        // function watchConsentChange(perfernces) {
+        //     console.log(perfernces);
+        //     alert("consent changed");
+        // }
 
-      WcpConsent.onInitCallback(InitCallback1);
-
-      function setNonEssentialCookies(categoryPreferences) {
-        if (categoryPreferences.Advertising) {
-          AdvertisingCookie("set");
-        } else {
-          AdvertisingCookie("reSet");
-        }
-
-        if (categoryPreferences.SocialMedia) {
-          SocialMediaCookie("set");
-        } else {
-          SocialMediaCookie("reSet");
-        }
-
-        if (categoryPreferences.Analytics) {
-          AnalyticsCookie("set");
-        } else {
-          AnalyticsCookie("reSet");
-        }
-      }
-
-      function onConsentChanged(categoryPreferences) {
-        setNonEssentialCookies(categoryPreferences);
-        var cookies = document.cookie.split(";");
-        cookies.forEach(addElement);
-      }
-      function addElement(item, index) {
-        var para = document.createElement("p");
-        var node = document.createTextNode(item);
-        para.appendChild(node);
-      }
-
-      (function () {
-        setEssentialCookies();
-        window.siteConsent = null;
-        WcpConsent.init("en-US", "cookie-banner", function (err, _siteConsent) {
-          if (err != undefined) {
-            return error;
+        // function manageConsent() {
+        //     siteConsent.manageConsent();
+        // }
+        function SocialMediaCookie(setString) {
+          if (setString === "set") {
+            document.cookie =
+              "socialMediaCookie=Started_Tracking_Your_SocialMedia; expires=" +
+              getSetDate() +
+              "; path=/";
           } else {
-            siteConsent = _siteConsent;
-            console.log("getConsent()", siteConsent.getConsent());
-            setNonEssentialCookies(siteConsent.getConsent());
+            document.cookie =
+              "socialMediaCookie=Started_Tracking_Your_SocialMedia; expires=" +
+              getResetDate() +
+              "; path=/";
           }
-        }, onConsentChanged);
-        if (window.siteConsent) {
-          console.log(siteConsent.getConsent());
         }
-        var cookies = document.cookie.split(";");
-        cookies.forEach(addElement);
-      })();
-    }
-  </script>
-<script type="text/javascript" src="static/js/chunk-vendors.js"></script><script type="text/javascript" src="static/js/app.js"></script></body>
+        function AnalyticsCookie(setString) {
+          if (setString === "set") {
+            document.cookie =
+              "analyticsCookie=Started_Tracking_Your_Experiance; expires=" +
+              getSetDate() +
+              "; path=/";
+          } else {
+            document.cookie =
+              "analyticsCookie=Started_Tracking_Your_Experiance; expires=" +
+              getResetDate() +
+              "; path=/";
+          }
+        }
+        function AdvertisingCookie(setString) {
+          if (setString === "set") {
+            document.cookie =
+              "adCookie=Started_Tracking_You_ToShow_Ads; expires=" +
+              getSetDate() +
+              "; path=/";
+          } else {
+            document.cookie =
+              "adCookie=Started_Tracking_You_ToShow_Ads; expires=" +
+              getResetDate() +
+              "; path=/";
+          }
+        }
+        function setEssentialCookies() {
+          document.cookie =
+            "essentialCookie=I_am_alway_required; expires=" +
+            getSetDate() +
+            "; path=/";
+        }
+        function InitCallback1(categoryPreferences) {
+          console.log(categoryPreferences.Advertising);
+          console.log(categoryPreferences.SocialMedia);
+          console.log(categoryPreferences.Analytics);
+          console.log("init callback 1");
+        }
+        function InitCallback2() {
+          console.log("init callback 2");
+        }
+        function InitCallback3() {
+          console.log("init callback 3");
+        }
 
+        WcpConsent.onInitCallback(InitCallback1);
+
+        function setNonEssentialCookies(categoryPreferences) {
+          if (categoryPreferences.Advertising) {
+            AdvertisingCookie("set");
+          } else {
+            AdvertisingCookie("reSet");
+          }
+
+          if (categoryPreferences.SocialMedia) {
+            SocialMediaCookie("set");
+          } else {
+            SocialMediaCookie("reSet");
+          }
+
+          if (categoryPreferences.Analytics) {
+            AnalyticsCookie("set");
+          } else {
+            AnalyticsCookie("reSet");
+          }
+        }
+
+        function onConsentChanged(categoryPreferences) {
+          setNonEssentialCookies(categoryPreferences);
+          var cookies = document.cookie.split(";");
+          cookies.forEach(addElement);
+        }
+        function addElement(item, index) {
+          var para = document.createElement("p");
+          var node = document.createTextNode(item);
+          para.appendChild(node);
+        }
+
+        (function () {
+          setEssentialCookies();
+          window.siteConsent = null;
+          WcpConsent.init(
+            "en-US",
+            "cookie-banner",
+            function (err, _siteConsent) {
+              if (err != undefined) {
+                return error;
+              } else {
+                siteConsent = _siteConsent;
+                console.log("getConsent()", siteConsent.getConsent());
+                setNonEssentialCookies(siteConsent.getConsent());
+              }
+            },
+            onConsentChanged
+          );
+          if (window.siteConsent) {
+            console.log(siteConsent.getConsent());
+          }
+          var cookies = document.cookie.split(";");
+          cookies.forEach(addElement);
+        })();
+      };
+    </script>
+  <script type="text/javascript" src="static/js/chunk-vendors.js"></script><script type="text/javascript" src="static/js/app.js"></script></body>
 </html>
