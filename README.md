@@ -6,10 +6,6 @@ With the global consensus of the 1.5°C goal of the Paris Agreement, the world h
 
 With Carbon Insight, you can work with the world's most updated carbon-related data and generate insights as you wish.
 
-For example, in our first release, you can leverage the dataset provided by [Carbon Monitor](https://carbonmonitor.org.cn/), to have a daily anthropogenic CO2 emission estimation by country and sector since January 2019.
-
-![](assets/ss01.png)
-
 Carbon Insight also lets you observe and track correlations between global carbon emissions and socioeconomic factors such as COVID-19 and GDP.
 
 ![](assets/ss02.png)
