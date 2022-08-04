@@ -37,8 +37,6 @@ If you want a straightforward view of a global emission map by country, you can 
 If you have some basic coding knowledge and want to get your hands dirty customizing your own analysis or combining different datasets to scale your research, go to our [Jupyter Notebook Tutorials](https://github.com/microsoft/Carbon-Insight/tree/main/notebook) and walk through the code examples we provide on how to acquire, process and visualize carbon-related data.
 
 
-![](assets/MicrosoftTeams-image.png)
-
 ## Release Note
 
 **2022/01/06 release**:
